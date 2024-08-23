@@ -15,7 +15,7 @@ int main(){
     int arr[] = {2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
     int n = sizeof(arr)/sizeof(arr[0]);
     y = 23;
-    if(search(arr, n, 0)){
+    if(search(arr, n, 0)>=0){
         cout << "Element found at index: " << search(arr, n, 0);
     } else {
         cout << "Element not found";
